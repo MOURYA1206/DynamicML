@@ -1,0 +1,61 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Image Recognition",
+    "Topic :: Software Development :: Libraries",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+name = "dynamicml"
+version = "1.1.6"
+description = "A lightweight binary image classification system built with scikit‑learn, focusing on k‑Nearest Neighbors (kNN) and classical ML models. It features dynamic, model‑aware image preprocessing (HOG, scaling, PCA) that adapts automatically to image characteristics, enabling efficient training and reliable inference for custom datasets."
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [
+    { name="SUNKARA SAI GANESH", email="ganiisunkara@gmail.com" },
+    { name="KUDIRELLA SANMUKA SAI", email="sanmukasaikudirella@gmail.com" },
+    { name="KARROTHU MOURYA", email="mouryakarrothu@gmail.com" },
+    { name="NETI N V LAKSHMI SUNAYANA", email="sunayananeti12@gmail.com" },
+    { name="DONTALA KIRAN KUMAR", email="kirankumartech18@gmail.com" }
+]
+maintainers = [
+    { name="SUNKARA SAI GANESH", email="ganiisunkara@gmail.com" },
+    { name="KUDIRELLA SANMUKA SAI", email="sanmukasaikudirella@gmail.com" },
+    { name="KARROTHU MOURYA", email="mouryakarrothu@gmail.com" },
+    { name="NETI N V LAKSHMI SUNAYANA", email="sunayananeti12@gmail.com" },
+    { name="DONTALA KIRAN KUMAR", email="kirankumartech18@gmail.com" }
+]
+dependencies = [
+    "numpy>=1.21",
+    "scipy>=1.7",
+    "scikit-learn>=1.2",
+    "scikit-image>=0.19",
+    "opencv-python>=4.6",
+    "joblib>=1.2",
+]
+
+keywords = [
+    "machine learning",
+    "image classification",
+    "knn",
+    "computer vision",
+    "scikit-learn"
+]
+
+[project.urls]
+Homepage = "https://github.com/GaniiKing/dynamicml"
